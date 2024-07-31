@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta charset='utf-8'>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">H:/ITI/Test Automation University/Selenium WebDriver with Java/nopCommerce/nopCommerce/src/test</a></td><td class="numi">24</td><td class="numi">24</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">106.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Base</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">H:/ITI/Test Automation University/Selenium WebDriver with Java/nopCommerce/nopCommerce/src/test &#8212; failed</th></tr>
+<tr class="failedodd"><td>E2EScenario.E2EScenario</td><td><a href="#m1"><b>fullUserPurchaseScenario</b>  </a></td><td class="numi">1</td><td>1711803196881</td><td class="numi">3609</td></tr>
+<tr class="failedeven"><td>Register.RegisterTests</td><td><a href="#m2"><b>testRegister</b>  </a></td><td class="numi">1</td><td>1711803141028</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td>Login.AccountTests</td><td><a href="#m3"><b>testAccountChanges</b>  </a></td><td class="numi">1</td><td>1711803159827</td><td class="numi">0</td></tr>
+<tr><th colspan="5">H:/ITI/Test Automation University/Selenium WebDriver with Java/nopCommerce/nopCommerce/src/test &#8212; passed</th></tr>
+<tr class="passedodd"><td>AddProduct.CheckEmptyWishlist</td><td><a href="#m4"><b>testEmptyWishlist</b>  </a></td><td class="numi">1</td><td>1711803191662</td><td class="numi">1246</td></tr>
+<tr class="passedeven"><td>Login.LoginTests</td><td><a href="#m5"><b>testInvalidLogin</b>  </a></td><td class="numi">3</td><td>1711803149376</td><td class="numi">5838</td></tr>
+<tr class="passedodd"><td>SearchTests.InvalidSearch</td><td><a href="#m6"><b>testInvalidSearchProduct</b>  </a></td><td class="numi">1</td><td>1711803218754</td><td class="numi">1289</td></tr>
+<tr class="passedeven"><td>SearchTests.ValidSearchProductTest</td><td><a href="#m7"><b>sortByAlphabeticalOrderSearch</b>  </a></td><td class="numi">1</td><td>1711803237895</td><td class="numi">1381</td></tr>
+<tr class="passedodd"><td>Register.RegisterTests</td><td><a href="#m8"><b>testInvalidRegister</b>  </a></td><td class="numi">1</td><td>1711803143044</td><td class="numi">1683</td></tr>
+<tr class="passedeven"><td rowspan="2">SearchTests.ValidSearchProductTest</td><td><a href="#m9"><b>testSearchProduct</b>  </a></td><td class="numi">6</td><td>1711803226467</td><td class="numi">8511</td></tr><tr class="passedeven"><td><a href="#m10"><b>testSearchProduct</b>  </a></td><td class="numi">6</td><td>1711803226467</td><td class="numi">8511</td></tr>
+<tr class="passedodd"><td rowspan="2">Login.LoginTests</td><td><a href="#m11"><b>testInvalidLogin</b>  </a></td><td class="numi">3</td><td>1711803149376</td><td class="numi">5838</td></tr><tr class="passedodd"><td><a href="#m12"><b>testInvalidLogin</b>  </a></td><td class="numi">3</td><td>1711803149376</td><td class="numi">5838</td></tr>
+<tr class="passedeven"><td rowspan="2">HomePageTests.NavigationBarElementsTests</td><td><a href="#m13"><b>testWishlistBtnNavBar</b>  </a></td><td class="numi">1</td><td>1711803212752</td><td class="numi">627</td></tr><tr class="passedeven"><td><a href="#m14"><b>testRegisterBtnNavBar</b>  </a></td><td class="numi">1</td><td>1711803209466</td><td class="numi">566</td></tr>
+<tr class="passedodd"><td>AddProduct.AddProductToCart</td><td><a href="#m15"><b>addProductID1ToCartThenRemove</b>  </a></td><td class="numi">1</td><td>1711803166528</td><td class="numi">6882</td></tr>
+<tr class="passedeven"><td>SearchTests.InvalidSearch</td><td><a href="#m16"><b>searchEmptyField</b>  </a></td><td class="numi">1</td><td>1711803220565</td><td class="numi">966</td></tr>
+<tr class="passedodd"><td>HomePageTests.NavigationBarElementsTests</td><td><a href="#m17"><b>testLoginBtnNavBar</b>  </a></td><td class="numi">1</td><td>1711803207326</td><td class="numi">1712</td></tr>
+<tr class="passedeven"><td>SearchTests.ValidSearchProductTest</td><td><a href="#m18"><b>sortByPriceAfterSearch</b>  </a></td><td class="numi">1</td><td>1711803235600</td><td class="numi">1787</td></tr>
+<tr class="passedodd"><td>AddProduct.AddProductsToWishList</td><td><a href="#m19"><b>testAddingProductToWishlist</b>  </a></td><td class="numi">1</td><td>1711803177885</td><td class="numi">2995</td></tr>
+<tr class="passedeven"><td>HomePageTests.NavigationBarElementsTests</td><td><a href="#m20"><b>testDropDown</b>  </a></td><td class="numi">1</td><td>1711803211462</td><td class="numi">840</td></tr>
+<tr class="passedodd"><td>AddProduct.CheckEmptyCart</td><td><a href="#m21"><b>checkEmptyCartText</b>  </a></td><td class="numi">1</td><td>1711803186103</td><td class="numi">749</td></tr>
+<tr class="passedeven"><td>SearchTests.ValidSearchProductTest</td><td><a href="#m22"><b>testSearchProduct</b>  </a></td><td class="numi">6</td><td>1711803226467</td><td class="numi">8511</td></tr>
+<tr class="passedodd"><td>SearchTests.InvalidSearch</td><td><a href="#m23"><b>searchWithSpecialCharacters</b>  </a></td><td class="numi">1</td><td>1711803221978</td><td class="numi">761</td></tr>
+<tr class="passedeven"><td rowspan="2">SearchTests.ValidSearchProductTest</td><td><a href="#m24"><b>testSearchProduct</b>  </a></td><td class="numi">6</td><td>1711803226467</td><td class="numi">8511</td></tr><tr class="passedeven"><td><a href="#m25"><b>testSearchProduct</b>  </a></td><td class="numi">6</td><td>1711803226467</td><td class="numi">8511</td></tr>
+<tr class="passedodd"><td>HomePageTests.NavigationBarElementsTests</td><td><a href="#m26"><b>testCartBtnNavBar</b>  </a></td><td class="numi">1</td><td>1711803210495</td><td class="numi">525</td></tr>
+<tr class="passedeven"><td>SearchTests.ValidSearchProductTest</td><td><a href="#m27"><b>testSearchProduct</b>  </a></td><td class="numi">6</td><td>1711803226467</td><td class="numi">8511</td></tr>
+</table>
+<h1>H:/ITI/Test Automation University/Selenium WebDriver with Java/nopCommerce/nopCommerce/src/test</h1>
+<h2 id="m1">E2EScenario.E2EScenario:fullUserPurchaseScenario</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Decmeber
+    For documentation on this error, please visit:
+    https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+    Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+    System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+    java.version: &apos;21.0.1&apos;
+    Driver info: driver.version: unknown
+    at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+    at Pages.RegisterPage.selectMonth(RegisterPage.java:59)
+    at E2EScenario.E2EScenario.testSuccessfulRegister(FullScenario.java:43)
+    at E2EScenario.E2EScenario.fullUserPurchaseScenario(FullScenario.java:21)
+    at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+    at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+    at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+    at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+    at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+    at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+    at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+    at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+    at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+    at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+    at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+    at org.testng.TestRunner.privateRun(TestRunner.java:806)
+    at org.testng.TestRunner.run(TestRunner.java:601)
+    at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+    at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+    at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+    at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+    at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+    at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+    at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+    at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+    at org.testng.TestNG.runSuites(TestNG.java:1099)
+    at org.testng.TestNG.run(TestNG.java:1067)
+    at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+    at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Login.AccountTests:testAccountChanges</h2>
+<div>
+<div class="stacktrace">java.lang.RuntimeException: java.io.FileNotFoundException:
+	H:\ITI\Projects\nopCommerce\nopCommerce\src\main\resources\TestData\TestData.xlsx (The system cannot find the path
+	specified)
+	at
+	org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:791)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+	Caused by: java.io.FileNotFoundException:
+	H:\ITI\Projects\nopCommerce\nopCommerce\src\main\resources\TestData\TestData.xlsx (The system cannot find the path
+	specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
+	at Base.OpenWebsite.ReadVariant(BaseTests.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at
+	org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+	... 24 more
+</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Register.RegisterTests:testRegister</h2>
+<div>
+<div class="stacktrace">java.lang.RuntimeException: java.io.FileNotFoundException:
+	H:\ITI\Projects\nopCommerce\nopCommerce\src\main\resources\TestData\TestData.xlsx (The system cannot find the path
+	specified)
+	at
+	org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:791)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+	Caused by: java.io.FileNotFoundException:
+	H:\ITI\Projects\nopCommerce\nopCommerce\src\main\resources\TestData\TestData.xlsx (The system cannot find the path
+	specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
+	at Base.OpenWebsite.ReadVariant(BaseTests.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at
+	org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+	... 24 more
+</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">AddProduct.CheckEmptyWishlist:testEmptyWishlist</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Login.LoginTests:testInvalidLogin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>Joe@gmail</td>
+<td>DoeDoe34</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Login.LoginTests:testInvalidLogin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>TestNG@Framework.com</td>
+<td>TestNG1234</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">HomePageTests.NavigationBarElementsTests:testWishlistBtnNavBar</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">SearchTests.InvalidSearch:testInvalidSearchProduct</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">HomePageTests.NavigationBarElementsTests:testRegisterBtnNavBar</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">SearchTests.ValidSearchProductTest:sortByAlphabeticalOrderSearch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">Register.RegisterTests:testInvalidRegister</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">AddProduct.AddProductToCart:addProductID1ToCartThenRemove</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">SearchTests.InvalidSearch:searchEmptyField</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">HomePageTests.NavigationBarElementsTests:testLoginBtnNavBar</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">SearchTests.ValidSearchProductTest:sortByPriceAfterSearch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">AddProduct.AddProductsToWishList:testAddingProductToWishlist</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">HomePageTests.NavigationBarElementsTests:testDropDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">AddProduct.CheckEmptyCart:checkEmptyCartText</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">SearchTests.ValidSearchProductTest:testSearchProduct</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>Apple MacBook Pro 13-inch</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">SearchTests.ValidSearchProductTest:testSearchProduct</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>Adobe Photoshop CS4</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">SearchTests.InvalidSearch:searchWithSpecialCharacters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">SearchTests.ValidSearchProductTest:testSearchProduct</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>Night Visions</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">Login.LoginTests:testInvalidLogin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>Test@AutomationU.com</td>
+<td> </td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">SearchTests.ValidSearchProductTest:testSearchProduct</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>Nokia Lumia 1020</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">SearchTests.ValidSearchProductTest:testSearchProduct</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>Build your own computer</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">HomePageTests.NavigationBarElementsTests:testCartBtnNavBar</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">SearchTests.ValidSearchProductTest:testSearchProduct</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>HTC One M8 Android L 5.0 Lollipop</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
